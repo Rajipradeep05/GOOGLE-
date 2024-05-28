@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.Container{
+    width: 100%;
+    height: auto;
+    padding: 100px 20px;
+    background:#add8eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbox{
+    border-radius: 40px;
+    padding: 30px;
+    background: #f0f3ff;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.g-icon{
+    width: 50px;
+    cursor: pointer;
+}
+.imc-icon{
+    width: 30px;
+    margin-right: 10px;
+}
+.cam-icon{
+    width: 25px;
+    margin-left: 5px;
+}
+input{
+    font-size: 20px;
+    width: 500px;
+    border: 0;
+    background: transparent;
+    outline: none;
+}
